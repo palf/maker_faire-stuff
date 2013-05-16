@@ -1,0 +1,23 @@
+>> Writing PID to tmp/thin.pid
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on localhost:3000, CTRL+C to stop
+{"action"=>"play", "pid"=>"b00yd418", "target_device"=>"xbmc"}
+#<Addressable::URI:0x1793e60 URI:http://localhost:3000/control?action=play&pid=b00yd418&target_device=xbmc>
+#<HTTParty::Response:0x2f2b410 parsed_response="hi", @response=#<Net::HTTPOK 200 OK readbody=true>, @headers={"content-type"=>["text/html"], "content-length"=>["2"], "connection"=>["close"], "server"=>["thin 1.5.0 codename Knife"]}>
+    [32mWhen I post to the server with the following:[90m                     # features/step_definitions/outgoing_steps.rb:1[0m[0m
+      | [32maction       [0m[0m |[0m [32mplay    [0m[0m |[0m
+      | [32mpid          [0m[0m |[0m [32mb00yd418[0m[0m |[0m
+      | [32mtarget_device[0m[0m |[0m [32mxbmc    [0m[0m |[0m
+    [33mThen the server posts the clear command to XBMC[90m                   # features/step_definitions/outgoing_steps.rb:15[0m[0m
+[33m      TODO (Cucumber::Pending)[0m
+[33m      ./features/step_definitions/outgoing_steps.rb:16:in `/^the server posts the clear command to XBMC$/'[0m
+[33m      features/scenarios/outoing.feature:11:in `Then the server posts the clear command to XBMC'[0m
+    [36mAnd the server posts the play command to XBMC with the following:[90m # features/step_definitions/outgoing_steps.rb:19[0m[0m
+      | [36maction[0m[0m |[0m [36mwatch_video[0m[0m |[0m
+      | [36mpid   [0m[0m |[0m [36mb00yd418   [0m[0m |[0m
+
+1 scenario ([33m1 pending[0m)
+3 steps ([36m1 skipped[0m, [33m1 pending[0m, [32m1 passed[0m)
+2m2.526s
+>> Exiting!

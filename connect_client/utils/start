@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+adb shell am start -e playlisturl 'http://www.media.com/playlist/b016xjwc' palf.connect/.AppEntry

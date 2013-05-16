@@ -1,0 +1,10 @@
+task :default => 'test:features'
+
+
+namespace :test do
+
+  desc 'run the Cucumber features'
+  task :features do
+    `bundle exec cucumber`
+  end
+end

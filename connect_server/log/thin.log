@@ -1,0 +1,223 @@
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Restarting ...
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Restarting ...
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Restarting ...
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Restarting ...
+>> Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Exiting!
+/home/palf/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require': cannot load such file -- xbmc_controller (LoadError)
+	from /home/palf/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/site_ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /home/palf/projects/code/connect_server/config.ru:1:in `block in <main>'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/rack-1.4.1/lib/rack/builder.rb:51:in `instance_eval'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/rack-1.4.1/lib/rack/builder.rb:51:in `initialize'
+	from /home/palf/projects/code/connect_server/config.ru:1:in `new'
+	from /home/palf/projects/code/connect_server/config.ru:1:in `<main>'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/lib/rack/adapter/loader.rb:33:in `eval'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/lib/rack/adapter/loader.rb:33:in `load'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/lib/rack/adapter/loader.rb:42:in `for'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/lib/thin/controllers/controller.rb:169:in `load_adapter'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/lib/thin/controllers/controller.rb:73:in `start'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/lib/thin/runner.rb:187:in `run_command'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/lib/thin/runner.rb:152:in `run!'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/gems/thin-1.5.0/bin/thin:6:in `<top (required)>'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/bin/thin:23:in `load'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p327@server/bin/thin:23:in `<main>'
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Restarting ...
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+!! Unexpected error while processing request: invalid playlisturl: some_pid
+!! Unexpected error while processing request: invalid playlisturl: some_pid
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Exiting!
+/home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/eventmachine-1.0.0/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/eventmachine-1.0.0/lib/eventmachine.rb:526:in `start_server'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/lib/thin/backends/base.rb:55:in `block in start'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `call'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `run_machine'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/eventmachine-1.0.0/lib/eventmachine.rb:187:in `run'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/lib/thin/backends/base.rb:63:in `start'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/lib/thin/server.rb:159:in `start'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/lib/thin/controllers/controller.rb:86:in `start'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/lib/thin/runner.rb:187:in `run_command'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/lib/thin/runner.rb:152:in `run!'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/gems/thin-1.5.0/bin/thin:6:in `<top (required)>'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/bin/thin:19:in `load'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/bin/thin:19:in `<main>'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/bin/ruby_noexec_wrapper:14:in `eval'
+	from /home/palf/.rvm/gems/ruby-1.9.3-p392@server/bin/ruby_noexec_wrapper:14:in `<main>'
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+!! Unexpected error while processing request: invalid playlisturl: some_pid
+!! Unexpected error while processing request: invalid playlisturl: some_pid
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+!! Unexpected error while processing request: invalid playlisturl: some_pid
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+!! Unexpected error while processing request: invalid playlisturl: some_pid
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+!! Unexpected error while processing request: invalid playlisturl: some_pid
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.iplayer.palf/?pid=some_pid
+>> Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+!! Unexpected error while processing request: http error
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.iplayer.palf/?pid=some_pid
+{"code"=>-32100, "message"=>"Failed to execute method."}
+"OK"
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.iplayer.palf/?pid=b01s5hth
+"OK"
+"OK"
+{"code"=>-32100, "message"=>"Failed to execute method."}
+"OK"
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.youtube/?action=play_video&videoid=
+!! Unexpected error while processing request: undefined method `send_command' for #<XBMC::Controller:0x000000027d7628>
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.youtube/?action=play_video&videoid=Y6ljFaKRTrI
+!! Unexpected error while processing request: undefined method `send_command' for #<XBMC::Controller:0x000000023be118>
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.youtube/?action=play_video&videoid=Y6ljFaKRTrI
+"OK"
+"OK"
+{"code"=>-32100, "message"=>"Failed to execute method."}
+"OK"
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.iplayer.palf/?pid=b01s5hth
+"OK"
+"OK"
+"OK"
+"OK"
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.youtube/?action=play_video&videoid=Y6ljFaKRTrI
+"OK"
+"OK"
+{"code"=>-32100, "message"=>"Failed to execute method."}
+"OK"
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.iplayer.palf/?pid=b01s5hth
+"OK"
+"OK"
+"OK"
+"OK"
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.iplayer.palf/?pid=b01s5hth
+>> Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+!! Unexpected error while processing request: http error
+>> Exiting!
+>> Writing PID to tmp/pids/thin.pid
+>> Using rack adapter
+>> Thin web server (v1.5.0 codename Knife)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+playing video from: plugin://plugin.video.youtube/?action=play_video&videoid=Y6ljFaKRTrI
+>> Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
+!! Unexpected error while processing request: http error
+>> Exiting!
